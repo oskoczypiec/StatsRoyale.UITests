@@ -1,9 +1,4 @@
 ﻿using StatsRoyale.UITests.Framework.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StatsRoyale.UITests.Framework.Services
 {
@@ -20,7 +15,7 @@ namespace StatsRoyale.UITests.Framework.Services
                 case "Ice Spirit":
                     return new IceSpiritCard();
                 default:
-                    throw new System.ArgumentException($"Card is not available: {cardName}");
+                    throw new ArgumentException($"Card is not available: {cardName}");
                 
             }
         }

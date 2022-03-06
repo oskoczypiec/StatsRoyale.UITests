@@ -1,7 +1,4 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using StatsRoyale.UITests.Framework.Models;
 using StatsRoyale.UITests.Framework.Selenium;
 using StatsRoyale.UITests.Framework.Services;
 using StatsRoyale.UITests.Pages;

@@ -1,12 +1,6 @@
 ﻿using OpenQA.Selenium;
 using StatsRoyale.UITests.Framework.Models;
 using StatsRoyale.UITests.Framework.Selenium;
-using StatsRoyale.UITests.Framework.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StatsRoyale.UITests.Pages
 {
